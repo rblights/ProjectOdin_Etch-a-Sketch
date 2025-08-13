@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aliceblue;
+}
+
+.sketchPad {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10vh auto;
+    background-color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, .5);
+}
+
+.cell {
+    border: 1px solid whitesmoke;
+}
